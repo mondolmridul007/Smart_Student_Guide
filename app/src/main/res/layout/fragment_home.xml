@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.home.HomeFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rajshahi University of Engineering &amp; Technology"
+                android:layout_marginTop="36dp"
+                android:textSize="19dp"
+                android:layout_gravity="center_horizontal"
+                android:textColor="@color/black"
+                android:fontFamily="@string/bold"/>
+
+            <com.smarteist.autoimageslider.SliderLayout
+                android:layout_width="match_parent"
+                android:layout_marginTop="17dp"
+                android:layout_height="250dp"
+                android:id="@+id/slider"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="36dp"
+                android:background="@color/black">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="36dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Departments"
+                        android:layout_marginTop="14dp"
+                        android:textSize="19dp"
+                        android:layout_gravity="center_horizontal"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:fontFamily="@string/bold"/>
+
+                    <com.google.android.material.card.MaterialCardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="16dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Electrical &amp; Electronic Engineering"
+                                android:layout_marginTop="36dp"
+                                android:layout_margin="8dp"
+                                android:textSize="19dp"
+                                android:layout_gravity="center_horizontal"
+                                android:textColor="@color/black"
+                                android:fontFamily="@string/bold"/>
+
+                            <View
+                                android:layout_width="match_parent"
+                                android:layout_height="1dp"
+                                android:background="@color/lightgrey"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Computer Science &amp; Engineering"
+                                android:layout_marginTop="36dp"
+                                android:layout_margin="8dp"
+                                android:textSize="19dp"
+                                android:layout_gravity="center_horizontal"
+                                android:textColor="@color/black"
+                                android:fontFamily="@string/bold"/>
+
+                            <View
+                                android:layout_width="match_parent"
+                                android:layout_height="1dp"
+                                android:background="@color/lightgrey"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Mechanical Engineering"
+                                android:layout_marginTop="36dp"
+                                android:layout_margin="8dp"
+                                android:textSize="19dp"
+                                android:layout_gravity="center_horizontal"
+                                android:textColor="@color/black"
+                                android:fontFamily="@string/bold"/>
+
+                            <View
+                                android:layout_width="match_parent"
+                                android:layout_height="1dp"
+                                android:background="@color/lightgrey"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Civil Engineering"
+                                android:layout_marginTop="36dp"
+                                android:layout_margin="8dp"
+                                android:textSize="19dp"
+                                android:layout_gravity="center_horizontal"
+                                android:textColor="@color/black"
+                                android:fontFamily="@string/bold"/>
+
+
+                        </LinearLayout>
+
+                    </com.google.android.material.card.MaterialCardView>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Contact Details"
+                    android:layout_marginTop="36dp"
+                    android:textSize="19dp"
+                    android:layout_gravity="center_horizontal"
+                    android:textColor="@color/black"
+                    android:fontFamily="@string/bold"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Rajshahi University of Engineering &amp; Technology"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginHorizontal="16dp"
+                    android:textSize="16dp"
+                    android:textColor="@color/black"
+                    android:fontFamily="@string/light"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Kazla, Rajshahi-6204, Bangladesh."
+                    android:layout_marginTop="16dp"
+                    android:layout_marginHorizontal="16dp"
+                    android:textSize="16dp"
+                    android:textColor="@color/black"
+                    android:fontFamily="@string/light"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Phone: +88 (0721) 750105"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginHorizontal="16dp"
+                    android:textSize="16dp"
+                    android:textColor="@color/black"
+                    android:fontFamily="@string/light"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Message: registrar@ruet.ac.bd"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginHorizontal="16dp"
+                    android:textSize="16dp"
+                    android:textColor="@color/black"
+                    android:fontFamily="@string/light"/>
+
+                <ImageView
+                    android:id="@+id/map"
+                    android:layout_marginTop="15dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="220dp"
+                    android:src="@drawable/gmap"
+                    android:scaleType="fitXY"/>
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</FrameLayout>

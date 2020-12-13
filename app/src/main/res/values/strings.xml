@@ -1,0 +1,54 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Smart Student Guide</string>
+
+    <string name="bold" tools:ignore="ReferenceType">@font/lato_bold</string>
+    <string name="regular" tools:ignore="ReferenceType">@font/lato_regular</string>
+    <string name="light" tools:ignore="ReferenceType">@font/lato_light</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="start">Start</string>
+    <string name="close">Close</string>
+    <string name="about_college">
+        Rajshahi University of Engineering &amp; Technology (RUET) is the 2nd oldest prestigious public Engineering University of Bangladesh offers quality education and research in the field of engineering and technology. The university established in 1964 as Rajshahi Engineering College with three Engineering departments namely Mechanical Engineering, Electrical &amp; Electronic Engineering and Civil Engineering. The institute started with Bachelor degree program and limited number of students (122) enrolled in three departments each year. Later it was converted to Bangladesh Institute of Technology (BIT), Rajshahi in 1986 to enhance the technical education. The institute is upgraded as Rajshahi University of Engineering &amp; Technology (RUET) in September, 2003 to enhance the technical education and research. The university is financed by the Government through the university Grants Commission of Bangladesh. The university is an autonomous statutory organization of the Government of Bangladesh functioning within the "Rajshahi University of Engineering &amp; Technology Act 2003. Currently, the university comprises 14 departments including engineering and sciences offers under-graduate and post-graduate degrees. Every year 725 most brilliant students are enrolled for the undergraduate program (session 2014-2015) through transparent and standard admission test. About 3000 students are pursuing their higher study in this green campus including under-graduate and post-graduate with over 200 prominent faculty members of diverse field of expertise. In graduate level, M.Sc. Engg., M. Engg., M.Phil and PhD programs and research are continuing in a qualitative manner under the faculties. The university also receive a significant numbers of international students are continuing their higher study in this campus. The medium of instruction and necessary assessment of this university is English.
+    </string>
+    <string name="vision">
+        To produce highly-skilled human resources through engineering and technology focused education and research in order to contribute to the socio-economic development of the country.
+    </string>
+    <string name="mission">
+
+        * To produce technologically-sound professional human resources with high moral and ethical values in order to meet the demand of the society.
+        * To create a conducive environment to confirm high standard higher education, research and innovation in the area of engineering and technology.
+        * To create opportunities for multidimensional academic collaboration between universities, industries and professional organizations in higher education, research and innovation.
+        * To provide and receive on-demand advice and recommendation to solve scientific and technical issues at national and international level.
+        * To contribute in policy formulation in order to obtain sustainable socio-economic and industrial development of Bangladesh.
+
+    </string>
+    <string name="location">
+        Rajshahi University of Engineering &amp; Technology (RUET) is situated in the northern part of Bangladesh name Rajshahi is one of the largest divisional headquarter of the country.  The campus is located about 250 km north-west of Dhaka city and in urban area of Rajshahi adjoining with Dhaka-Rajshahi highway nearby of Rajshahi University. Dhaka to Rajshahi can be reached in about 5 hours by car, 6 hours by public bus, 6.5 hours by inter-city train and half an hour’s by airlines. The university is about 10 minutes drive (4 km) from the railway station and bus terminal and 20 minutes drive (8 km) from the Shah Makhdum Airport Rajshahi. Auto rickshaw, CNG and public bus is available 24 hours to reach the university from all the terminals. 
+    </string>
+    <string name="weather">
+        The distinguishable seasons in Bangladesh are summer and winter. In summer season (May-October) temperature of Rajshahi is hot and typically 25-40 0C and sometimes humid. In winter season (November-April) temperature is moderate typically 8-20 0C.
+    </string>
+    <string name="accomodation">
+        Students, teachers and staffs are accommodates inside the campus of green environment. Accommodations of visitors are arranged in the university guest house inside the campus upon permission of Vice-Chancellor.
+    </string>
+    <string name="food">
+        All the student dormitories, guest house and teachers/staffs quarters have cooking facilities inside the campus. The food corners are available in RUET cafeteria and canteen inside the campus. Apart from these, food corners are in the adjacent of RUET boundaries namely, Kazla, Talaimari traffic, Talaimari Bazar etc.
+    </string>
+    <string name="market">
+        Groceries are available inside the campus in the canteen area for daily necessities. One can walk 5 minutes from RUET gate for medicine, tailoring, photocopying, offset printing etc. One can go New Market, Shaheb Bazar 5 km away from RUET to buy wide variety of necessities.
+    </string>
+    <string name="hospital">
+        RUET has medical centre inside the campus to provide indoor medical facilities for common health problems. Complicated health problems immediately referred to Rajshahi Medical College providing ambulance service of RUET 6 km away from the campus.
+    </string>
+    <string name="title_activity_student_login">StudentLogin</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+
+</resources>
